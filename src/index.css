@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #2F5D50;
+  --color-brand-green-dark: #1C3A30;
+  --color-brand-green-darkest: #162E26;
+  
+  --color-brand-gold: #C68A3A;
+  --color-brand-gold-dark: #A5722F;
+  --color-brand-gold-light: #DF9F4F;
+  
+  --color-brand-bg: #F7F4EE;
+  --color-brand-bg-alt: #F1EEE8;
+  
+  --color-brand-text: #202124;
+  --color-brand-text-muted: #666666;
+  --color-brand-border: #E8E3DA;
+  
+  --shadow-soft: 0 2px 10px 0 rgba(32, 33, 36, 0.02), 0 1px 4px 0 rgba(32, 33, 36, 0.01);
+  --shadow-premium: 0 12px 30px -4px rgba(32, 33, 36, 0.04), 0 4px 10px -2px rgba(32, 33, 36, 0.02);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  body {
+    background-color: #F7F4EE;
+    color: #202124;
+    @apply antialiased overflow-x-hidden;
+  }
+  
+  /* Restrained, professional transition speed */
+  * {
+    @apply transition-colors duration-250 ease-in-out;
+  }
+  
+  /* Custom typography settings for a editorial feel */
+  h1, h2, h3, h4 {
+    color: #202124;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+/* Elegant scrollbar matching the premium muted design */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F4EE;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E8E3DA;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C68A3A;
+}
+
+/* Custom image masking / blending to blend white packaging background with white cards */
+.png-blend-multiply {
+  mix-blend-mode: multiply;
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Ticker Marquee Keyframe */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+/* Refined fade animations */
+@keyframes refinedFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-refined-fade {
+  animation: refinedFadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
