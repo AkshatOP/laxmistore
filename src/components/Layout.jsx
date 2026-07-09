@@ -231,7 +231,7 @@ export default function Layout({ children }) {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.8 }}
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="fixed bottom-6 left-6 z-40 bg-brand-gold hover:bg-brand-gold-dark text-white p-3 rounded-full shadow-premium transition-all duration-300 cursor-pointer border border-brand-gold-light/10"
+            className="fixed bottom-20 lg:bottom-6 left-6 z-40 bg-brand-gold hover:bg-brand-gold-dark text-white p-3 rounded-full shadow-premium transition-all duration-300 cursor-pointer border border-brand-gold-light/10"
             aria-label="Back to top"
           >
             <ArrowUp size={18} />
@@ -240,7 +240,7 @@ export default function Layout({ children }) {
       </AnimatePresence>
 
       {/* Sticky WhatsApp Chat Button (bottom-right) */}
-      <div className="fixed bottom-6 right-6 z-40 flex flex-col items-end space-y-3.5">
+      <div className="fixed bottom-20 lg:bottom-6 right-6 z-40 flex flex-col items-end space-y-3.5">
         
         {/* Sticky ORDER GROCERIES pill button (above WhatsApp) */}
         <AnimatePresence>
@@ -376,13 +376,19 @@ export default function Layout({ children }) {
                   <MapPin size={14} className="text-brand-gold shrink-0 mt-0.5" />
                   <span className="text-slate-400">{addressString}</span>
                 </li>
-                <li className="flex items-center space-x-2">
-                  <Phone size={14} className="text-brand-gold shrink-0" />
-                  <a href={`tel:${storeConfig.contact.phone1}`} className="hover:text-brand-gold">{storeConfig.contact.phone1}</a>
+                <li className="flex items-start space-x-2">
+                  <Phone size={14} className="text-brand-gold shrink-0 mt-0.5" />
+                  <div className="flex flex-col space-y-1">
+                    <a href={`tel:${storeConfig.contact.phone1}`} className="hover:text-brand-gold">{storeConfig.contact.phone1}</a>
+                    <a href={`tel:${storeConfig.contact.phone2}`} className="hover:text-brand-gold">{storeConfig.contact.phone2}</a>
+                  </div>
                 </li>
-                <li className="flex items-center space-x-2">
-                  <MessageSquare size={14} className="text-brand-gold shrink-0" />
-                  <a href={`https://wa.me/${storeConfig.contact.whatsapp.replace(/\+/g, '').replace(/\s/g, '')}`} className="hover:text-brand-gold">{storeConfig.contact.phone2}</a>
+                <li className="flex items-start space-x-2">
+                  <MessageSquare size={14} className="text-brand-gold shrink-0 mt-0.5" />
+                  <div className="flex flex-col space-y-1">
+                    <a href={`https://wa.me/${storeConfig.contact.whatsapp.replace(/\+/g, '').replace(/\s/g, '')}`} target="_blank" rel="noopener noreferrer" className="hover:text-brand-gold">{storeConfig.contact.whatsapp}</a>
+                    <a href={`https://wa.me/${storeConfig.contact.whatsapp2.replace(/\+/g, '').replace(/\s/g, '')}`} target="_blank" rel="noopener noreferrer" className="hover:text-brand-gold">{storeConfig.contact.whatsapp2}</a>
+                  </div>
                 </li>
               </ul>
             </div>

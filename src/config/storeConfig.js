@@ -7,12 +7,13 @@ export const storeConfig = {
   establishedYear: "2015",
   
   contact: {
-    phone1: "+91 94812 34567",
-    phone2: "+91 82124 56789",
-    whatsapp: "+919481234567",
-    email: "info@laxmisupermarket.com",
-    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.6894086691456!2d76.60417937586236!3d12.33664798793086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7b1c3c3a3bdf%3A0xe54e38e68b3f1df7!2sVijay%20Nagar%203rd%20Stage%2C%20Mysuru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
-    directionsUrl: "https://maps.app.goo.gl/wJtW7b3wM72P8vjT6",
+    phone1: "+91 91411 80977",
+    phone2: "+91 91416 55802",
+    whatsapp: "+91 91411 80977",
+    whatsapp2: "+91 91416 55802",
+    email: "solankikailashks93@gmail.com",
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.6823908234856!2d76.603123!3d12.336458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7afc7ddc1679%3A0xf19d58fdad6577e2!2sLaxmi%20Super%20Market!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+    directionsUrl: "https://maps.app.goo.gl/Xw6CSnM7qX242FEP8?g_st=awb",
     address: {
       number: "#396",
       landmark: "Near Basvraja Circle",
@@ -129,7 +130,7 @@ export const storeConfig = {
       name: "Laxmi Organic Moong Dal",
       tagline: "ORGANIC STAPLES, PESTICIDE FREE",
       badge: "ORGANIC STAPLE",
-      image: "/own-products/IMG_20260709_094104.jpg",
+      image: "/own-products/IMG_20260709_094339.jpg",
       description: "Grown organically without pesticides, preserving full nutritional values."
     },
     {
@@ -137,7 +138,7 @@ export const storeConfig = {
       name: "Laxmi Premium Cashews",
       tagline: "W240 JUMBO SIZE, RICH NUTS",
       badge: "PREMIUM SELECTION",
-      image: "/own-products/IMG_20260709_094135.jpg",
+      image: "/own-products/IMG_20260709_093902.jpg",
       description: "Crispy, hand-sorted jumbo cashews loaded with essential minerals."
     },
     {
