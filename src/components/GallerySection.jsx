@@ -68,13 +68,6 @@ export default function GallerySection() {
                   </div>
                 </div>
               </div>
-
-              {/* Muted Caption */}
-              <div className="p-3 bg-white border-t border-brand-border">
-                <p className="text-[10px] sm:text-[11px] font-bold text-brand-text-muted tracking-wide uppercase truncate">
-                  {img.caption}
-                </p>
-              </div>
             </div>
           ))}
         </div>

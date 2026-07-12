@@ -78,8 +78,12 @@ export default function Layout({ children }) {
           
           {/* Logo / Brand Name */}
           <a href="#home" onClick={(e) => handleLinkClick(e, '#home')} className="flex items-center space-x-3 select-none">
-            <div className="w-9 h-9 rounded bg-brand-green flex items-center justify-center text-white font-extrabold text-lg">
-              L
+            <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center bg-white border border-brand-border shadow-soft">
+              <img
+                src="https://res.cloudinary.com/daimyvr5u/image/upload/v1783834139/9034de62-0931-4081-a3cc-21806e1d39c2_prmrk7.jpg"
+                alt={`${storeConfig.storeName} Logo`}
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="text-left">
               <span className="font-extrabold text-base tracking-tight text-brand-green block leading-tight">{storeConfig.storeName}</span>
