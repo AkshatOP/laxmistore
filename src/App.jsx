@@ -74,11 +74,11 @@ export default function App() {
         <div className="max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto px-6 sm:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           
           {/* Mobile Image Placement (Above text on mobile) */}
-          <div className="lg:hidden h-[280px] rounded-2xl overflow-hidden shadow-soft border border-brand-border">
+          <div className="lg:hidden rounded-2xl overflow-hidden shadow-soft border border-brand-border">
             <img
-              src="/shop-gallery/premium_hero_store.png"
+              src="https://res.cloudinary.com/daimyvr5u/image/upload/v1783839122/1ef760cb-48c3-4ba7-a819-962ee83a2e10_vgseic.jpg"
               alt="Laxmi Super Market storefront"
-              className="w-full h-full object-cover object-center"
+              className="w-full h-auto object-cover object-center"
             />
           </div>
  
@@ -147,13 +147,13 @@ export default function App() {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="hidden lg:block lg:col-span-6 h-[480px] xl:h-[520px] rounded-2xl overflow-hidden shadow-soft border border-brand-border relative"
+            className="hidden lg:block lg:col-span-6 rounded-2xl overflow-hidden shadow-soft border border-brand-border relative"
             style={{ boxShadow: '0 20px 60px rgba(0,0,0,0.08)' }}
           >
             <img
-              src="/shop-gallery/premium_hero_store.png"
+              src="https://res.cloudinary.com/daimyvr5u/image/upload/v1783839122/1ef760cb-48c3-4ba7-a819-962ee83a2e10_vgseic.jpg"
               alt="Laxmi Super Market aisles"
-              className="w-full h-full object-cover"
+              className="w-full h-auto object-cover block"
             />
           </motion.div>
 
