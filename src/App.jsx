@@ -20,6 +20,7 @@ import Layout from './components/Layout';
 import ProductCard from './components/ProductCard';
 import ProductSlider from './components/ProductSlider';
 import GallerySection from './components/GallerySection';
+import LazySection from './components/LazySection';
 
 export default function App() {
   const [formData, setFormData] = useState({ name: '', phone: '', message: '' });
@@ -229,27 +230,28 @@ export default function App() {
           {/* Categories Stacked Vertically with alternate rhythms */}
           <div className="space-y-16">
             {storeConfig.categories.map((category, idx) => (
-              <motion.div
-                key={category.id}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, margin: "-100px" }}
-                variants={fadeUpVariant}
-                className="space-y-4"
-              >
-                {/* Category Heading & Description */}
-                <div className="text-left border-l-2 border-brand-gold pl-4 max-w-3xl">
-                  <h3 className="text-base sm:text-lg font-extrabold text-brand-text tracking-tight uppercase mt-0.5">
-                    {category.title}
-                  </h3>
-                  <p className="text-[11px] sm:text-xs text-brand-text-muted leading-relaxed mt-0.5">
-                    {category.description}
-                  </p>
-                </div>
+              <LazySection key={category.id} height="300px">
+                <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, margin: "-100px" }}
+                  variants={fadeUpVariant}
+                  className="space-y-4"
+                >
+                  {/* Category Heading & Description */}
+                  <div className="text-left border-l-2 border-brand-gold pl-4 max-w-3xl">
+                    <h3 className="text-base sm:text-lg font-extrabold text-brand-text tracking-tight uppercase mt-0.5">
+                      {category.title}
+                    </h3>
+                    <p className="text-[11px] sm:text-xs text-brand-text-muted leading-relaxed mt-0.5">
+                      {category.description}
+                    </p>
+                  </div>
 
-                {/* Swipeable Snap Carousel Slider */}
-                <ProductSlider category={category} />
-              </motion.div>
+                  {/* Swipeable Snap Carousel Slider */}
+                  <ProductSlider category={category} />
+                </motion.div>
+              </LazySection>
             ))}
           </div>
 

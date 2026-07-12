@@ -5,6 +5,7 @@ import { storeConfig } from '../config/storeConfig';
 
 export default function ProductCard({ product, categoryTitle, isOthers = false, othersList = [] }) {
   const [showOthersModal, setShowOthersModal] = useState(false);
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
 
   const handleWhatsAppInquiry = (productName) => {
     const text = encodeURIComponent(
@@ -175,12 +176,16 @@ export default function ProductCard({ product, categoryTitle, isOthers = false, 
           </div>
         )}
 
-        <div className="w-full h-48 sm:h-52 flex items-center justify-center bg-slate-50 rounded-xl overflow-hidden mb-4 p-3">
+        <div className="w-full h-48 sm:h-52 flex items-center justify-center bg-slate-50 rounded-xl overflow-hidden mb-4 p-3 relative">
+          {!isImageLoaded && (
+            <div className="absolute inset-0 animate-shimmer" />
+          )}
           <img
             src={product.image}
             alt={product.name}
-            className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
+            className={`max-h-full max-w-full object-contain group-hover:scale-105 transition-all duration-300 ${isImageLoaded ? 'opacity-100' : 'opacity-0'}`}
             loading="lazy"
+            onLoad={() => setIsImageLoaded(true)}
           />
         </div>
 
@@ -215,12 +220,16 @@ export default function ProductCard({ product, categoryTitle, isOthers = false, 
   // ── Regular category slider card ───────────────────────────────────────────
   return (
     <div className="bg-white border border-brand-border rounded-xl p-3 sm:p-4 flex flex-col group relative hover:shadow-premium hover:-translate-y-[3px] transition-all duration-350">
-      <div className="w-full h-40 sm:h-44 flex items-center justify-center bg-slate-50 rounded-xl overflow-hidden mb-3 border border-slate-100 p-2.5">
+      <div className="w-full h-40 sm:h-44 flex items-center justify-center bg-slate-50 rounded-xl overflow-hidden mb-3 border border-slate-100 p-2.5 relative">
+        {!isImageLoaded && (
+          <div className="absolute inset-0 animate-shimmer" />
+        )}
         <img
           src={product.image}
           alt={`${product.name}`}
-          className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
+          className={`max-h-full max-w-full object-contain group-hover:scale-105 transition-all duration-300 ${isImageLoaded ? 'opacity-100' : 'opacity-0'}`}
           loading="lazy"
+          onLoad={() => setIsImageLoaded(true)}
         />
       </div>
 

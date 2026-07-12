@@ -98,7 +98,7 @@ export const storeConfig = {
       name: "Laxmi Premium Ajwain",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "PREMIUM QUALITY",
-      image: "/own-products/Ajwain.jpg",
+      image: "/own-products/Ajwain.webp",
       description: "Premium quality Ajwain sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -106,7 +106,7 @@ export const storeConfig = {
       name: "Laxmi Premium Avarekalu",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "100% NATURAL",
-      image: "/own-products/Avarekalu.jpg",
+      image: "/own-products/Avarekalu.webp",
       description: "Premium quality Avarekalu sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -114,7 +114,7 @@ export const storeConfig = {
       name: "Laxmi Premium Black Urad Dal",
       tagline: "HIGH PROTEIN, DOUBLE CLEANED",
       badge: "DAILY ESSENTIAL",
-      image: "/own-products/BlackUradDal.jpg",
+      image: "/own-products/BlackUradDal.webp",
       description: "Premium quality Black Urad Dal sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -122,7 +122,7 @@ export const storeConfig = {
       name: "Laxmi Premium Chana Dal",
       tagline: "HIGH PROTEIN, DOUBLE CLEANED",
       badge: "HOUSE BRAND",
-      image: "/own-products/ChanaDal.jpg",
+      image: "/own-products/ChanaDal.webp",
       description: "Premium quality Chana Dal sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -130,7 +130,7 @@ export const storeConfig = {
       name: "Laxmi Premium Corn",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "BEST SELLER",
-      image: "/own-products/Corn.jpg",
+      image: "/own-products/Corn.webp",
       description: "Premium quality Corn sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -138,7 +138,7 @@ export const storeConfig = {
       name: "Laxmi Premium Dalia",
       tagline: "HIGH PROTEIN, DOUBLE CLEANED",
       badge: "PREMIUM QUALITY",
-      image: "/own-products/Dalia.jpg",
+      image: "/own-products/Dalia.webp",
       description: "Premium quality Dalia sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -146,7 +146,7 @@ export const storeConfig = {
       name: "Laxmi Premium Green Moong",
       tagline: "HIGH PROTEIN, DOUBLE CLEANED",
       badge: "100% NATURAL",
-      image: "/own-products/GreenMoong.jpg",
+      image: "/own-products/GreenMoong.webp",
       description: "Premium quality Green Moong sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -154,7 +154,7 @@ export const storeConfig = {
       name: "Laxmi Premium Kali Mirch",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "DAILY ESSENTIAL",
-      image: "/own-products/KaliMirch.jpg",
+      image: "/own-products/KaliMirch.webp",
       description: "Premium quality Kali Mirch sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -162,7 +162,7 @@ export const storeConfig = {
       name: "Laxmi Premium Namkeen Mixture",
       tagline: "TRADITIONAL SPICY MIXTURE",
       badge: "HOUSE BRAND",
-      image: "/own-products/NamkeenMixture.jpg",
+      image: "/own-products/NamkeenMixture.webp",
       description: "Premium quality Namkeen Mixture sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -170,7 +170,7 @@ export const storeConfig = {
       name: "Laxmi Premium Poha",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "BEST SELLER",
-      image: "/own-products/Poha.jpg",
+      image: "/own-products/Poha.webp",
       description: "Premium quality Poha sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -178,7 +178,7 @@ export const storeConfig = {
       name: "Laxmi Premium Rava",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "PREMIUM QUALITY",
-      image: "/own-products/Rava.jpg",
+      image: "/own-products/Rava.webp",
       description: "Premium quality Rava sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -186,7 +186,7 @@ export const storeConfig = {
       name: "Laxmi Premium Saunf",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "100% NATURAL",
-      image: "/own-products/Saunf.jpg",
+      image: "/own-products/Saunf.webp",
       description: "Premium quality Saunf sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -194,7 +194,7 @@ export const storeConfig = {
       name: "Laxmi Premium Soybeans",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "DAILY ESSENTIAL",
-      image: "/own-products/Soybeans.jpg",
+      image: "/own-products/Soybeans.webp",
       description: "Premium quality Soybeans sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -202,7 +202,7 @@ export const storeConfig = {
       name: "Laxmi Premium Spicy Peanuts",
       tagline: "CRUNCHY & DELICIOUS SNACKS",
       badge: "HOUSE BRAND",
-      image: "/own-products/SpicyPeanuts.jpg",
+      image: "/own-products/SpicyPeanuts.webp",
       description: "Premium quality Spicy Peanuts sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -210,7 +210,7 @@ export const storeConfig = {
       name: "Laxmi Premium Urad Dal",
       tagline: "HIGH PROTEIN, DOUBLE CLEANED",
       badge: "BEST SELLER",
-      image: "/own-products/UradDal.jpg",
+      image: "/own-products/UradDal.webp",
       description: "Premium quality Urad Dal sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -218,7 +218,7 @@ export const storeConfig = {
       name: "Laxmi Premium Almonds",
       tagline: "PREMIUM SELECTION, RICH IN NUTRIENTS",
       badge: "PREMIUM QUALITY",
-      image: "/own-products/almonds.jpg",
+      image: "/own-products/almonds.webp",
       description: "Premium quality Almonds sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -226,7 +226,7 @@ export const storeConfig = {
       name: "Laxmi Premium Avarebele",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "100% NATURAL",
-      image: "/own-products/avarebele.jpg",
+      image: "/own-products/avarebele.webp",
       description: "Premium quality Avarebele sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -234,7 +234,7 @@ export const storeConfig = {
       name: "Laxmi Premium Cashew",
       tagline: "PREMIUM SELECTION, RICH IN NUTRIENTS",
       badge: "DAILY ESSENTIAL",
-      image: "/own-products/cashew.jpg",
+      image: "/own-products/cashew.webp",
       description: "Premium quality Cashew sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -242,7 +242,7 @@ export const storeConfig = {
       name: "Laxmi Premium Chanadal",
       tagline: "HIGH PROTEIN, DOUBLE CLEANED",
       badge: "HOUSE BRAND",
-      image: "/own-products/chanadal.jpg",
+      image: "/own-products/chanadal.webp",
       description: "Premium quality Chanadal sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -250,7 +250,7 @@ export const storeConfig = {
       name: "Laxmi Premium Chillipowder",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "BEST SELLER",
-      image: "/own-products/chillipowder.jpg",
+      image: "/own-products/chillipowder.webp",
       description: "Premium quality Chillipowder sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -258,7 +258,7 @@ export const storeConfig = {
       name: "Laxmi Premium Flaxseeds",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "PREMIUM QUALITY",
-      image: "/own-products/flaxseeds.jpg",
+      image: "/own-products/flaxseeds.webp",
       description: "Premium quality Flaxseeds sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -266,7 +266,7 @@ export const storeConfig = {
       name: "Laxmi Premium Jeera",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "100% NATURAL",
-      image: "/own-products/jeera.jpg",
+      image: "/own-products/jeera.webp",
       description: "Premium quality Jeera sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -274,7 +274,7 @@ export const storeConfig = {
       name: "Laxmi Premium Kabulichana",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "DAILY ESSENTIAL",
-      image: "/own-products/kabulichana.jpg",
+      image: "/own-products/kabulichana.webp",
       description: "Premium quality Kabulichana sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -282,7 +282,7 @@ export const storeConfig = {
       name: "Laxmi Premium Kala Til",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "HOUSE BRAND",
-      image: "/own-products/kalaTil.jpg",
+      image: "/own-products/kalaTil.webp",
       description: "Premium quality Kala Til sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -290,7 +290,7 @@ export const storeConfig = {
       name: "Laxmi Premium Kalachana",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "BEST SELLER",
-      image: "/own-products/kalachana.jpg",
+      image: "/own-products/kalachana.webp",
       description: "Premium quality Kalachana sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -298,7 +298,7 @@ export const storeConfig = {
       name: "Laxmi Premium Kalajeera",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "PREMIUM QUALITY",
-      image: "/own-products/kalajeera.jpg",
+      image: "/own-products/kalajeera.webp",
       description: "Premium quality Kalajeera sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -306,7 +306,7 @@ export const storeConfig = {
       name: "Laxmi Premium Kalamirch",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "100% NATURAL",
-      image: "/own-products/kalamirch.jpg",
+      image: "/own-products/kalamirch.webp",
       description: "Premium quality Kalamirch sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -314,7 +314,7 @@ export const storeConfig = {
       name: "Laxmi Premium Kali T I L",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "DAILY ESSENTIAL",
-      image: "/own-products/kaliTIL.jpg",
+      image: "/own-products/kaliTIL.webp",
       description: "Premium quality Kali T I L sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -322,7 +322,7 @@ export const storeConfig = {
       name: "Laxmi Premium Masalafriedpeanuts",
       tagline: "CRUNCHY & DELICIOUS SNACKS",
       badge: "HOUSE BRAND",
-      image: "/own-products/masalafriedpeanuts.jpg",
+      image: "/own-products/masalafriedpeanuts.webp",
       description: "Premium quality Masalafriedpeanuts sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -330,7 +330,7 @@ export const storeConfig = {
       name: "Laxmi Premium Masalafriedpeanuts",
       tagline: "CRUNCHY & DELICIOUS SNACKS",
       badge: "BEST SELLER",
-      image: "/own-products/masalafriedpeanuts1.jpg",
+      image: "/own-products/masalafriedpeanuts1.webp",
       description: "Premium quality Masalafriedpeanuts sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -338,7 +338,7 @@ export const storeConfig = {
       name: "Laxmi Premium Methi Dana",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "PREMIUM QUALITY",
-      image: "/own-products/methi_dana.jpg",
+      image: "/own-products/methi_dana.webp",
       description: "Premium quality Methi Dana sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -346,7 +346,7 @@ export const storeConfig = {
       name: "Laxmi Premium Moongdal",
       tagline: "HIGH PROTEIN, DOUBLE CLEANED",
       badge: "100% NATURAL",
-      image: "/own-products/moongdal.jpg",
+      image: "/own-products/moongdal.webp",
       description: "Premium quality Moongdal sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -354,7 +354,7 @@ export const storeConfig = {
       name: "Laxmi Premium Moresalt",
       tagline: "NATURALLY IODIZED, PURE WHITE",
       badge: "DAILY ESSENTIAL",
-      image: "/own-products/moresalt.jpg",
+      image: "/own-products/moresalt.webp",
       description: "Premium quality Moresalt sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -362,7 +362,7 @@ export const storeConfig = {
       name: "Laxmi Premium Peanuts",
       tagline: "CRUNCHY & DELICIOUS SNACKS",
       badge: "HOUSE BRAND",
-      image: "/own-products/peanuts.jpg",
+      image: "/own-products/peanuts.webp",
       description: "Premium quality Peanuts sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -370,7 +370,7 @@ export const storeConfig = {
       name: "Laxmi Premium Sabudana",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "BEST SELLER",
-      image: "/own-products/sabudana.jpg",
+      image: "/own-products/sabudana.webp",
       description: "Premium quality Sabudana sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -378,7 +378,7 @@ export const storeConfig = {
       name: "Laxmi Premium Salt",
       tagline: "NATURALLY IODIZED, PURE WHITE",
       badge: "PREMIUM QUALITY",
-      image: "/own-products/salt.jpg",
+      image: "/own-products/salt.webp",
       description: "Premium quality Salt sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -386,7 +386,7 @@ export const storeConfig = {
       name: "Laxmi Premium Sooji",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "100% NATURAL",
-      image: "/own-products/sooji.jpg",
+      image: "/own-products/sooji.webp",
       description: "Premium quality Sooji sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -394,7 +394,7 @@ export const storeConfig = {
       name: "Laxmi Premium Soyabean",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "DAILY ESSENTIAL",
-      image: "/own-products/soyabean.jpg",
+      image: "/own-products/soyabean.webp",
       description: "Premium quality Soyabean sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -402,7 +402,7 @@ export const storeConfig = {
       name: "Laxmi Premium Wallnut",
       tagline: "PREMIUM SELECTION, RICH IN NUTRIENTS",
       badge: "HOUSE BRAND",
-      image: "/own-products/wallnut.jpg",
+      image: "/own-products/wallnut.webp",
       description: "Premium quality Wallnut sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -410,7 +410,7 @@ export const storeConfig = {
       name: "Laxmi Premium Yellow Dal",
       tagline: "HIGH PROTEIN, DOUBLE CLEANED",
       badge: "BEST SELLER",
-      image: "/own-products/yellowDal.jpg",
+      image: "/own-products/yellowDal.webp",
       description: "Premium quality Yellow Dal sourced directly and packed hygienically to retain natural taste and nutrients."
     }
   ],
@@ -424,12 +424,12 @@ export const storeConfig = {
       title: "Rice & Grains",
       description: "Premium basmati, daily table rice, healthy millets and whole grains.",
       products: [
-        { name: "Raw Rice",          brand: "Double Deer",   image: "/brand-products/double_deer_raw_rice.jpg" },
-        { name: "Sona Masoori Rice", brand: "Fortune",       image: "/brand-products/fortune_sona_masoori_rice.jpg" },
-        { name: "Basmati Rice",      brand: "India Gate",    image: "/brand-products/india_gate_basmati_rice.jpg" },
-        { name: "Idli Rice",         brand: "Aeroplane",     image: "/brand-products/aeroplane_idli_rice.jpg" },
-        { name: "Brown Rice",        brand: "Patanjali",     image: "/brand-products/patanjali_brown_rice.jpg" },
-        { name: "Poha (Avalakki)",   brand: "MTR",           image: "/brand-products/mtr_poha__avalakki_.jpg" }
+        { name: "Raw Rice",          brand: "Double Deer",   image: "/brand-products/double_deer_raw_rice.webp" },
+        { name: "Sona Masoori Rice", brand: "Fortune",       image: "/brand-products/fortune_sona_masoori_rice.webp" },
+        { name: "Basmati Rice",      brand: "India Gate",    image: "/brand-products/india_gate_basmati_rice.webp" },
+        { name: "Idli Rice",         brand: "Aeroplane",     image: "/brand-products/aeroplane_idli_rice.webp" },
+        { name: "Brown Rice",        brand: "Patanjali",     image: "/brand-products/patanjali_brown_rice.webp" },
+        { name: "Poha (Avalakki)",   brand: "MTR",           image: "/brand-products/mtr_poha__avalakki_.webp" }
       ],
       others: ["Rava / Sooji", "Wheat", "Broken Rice", "Millets", "Ragi", "Jowar", "Bajra", "Corn"]
     },
@@ -439,12 +439,12 @@ export const storeConfig = {
       title: "Atta & Flour",
       description: "Stone-ground chakki atta, maida, besan, ragi flour and specialty flours.",
       products: [
-        { name: "Wheat Flour",   brand: "Aashirvaad",    image: "/brand-products/aashirvaad_wheat_flour.jpg" },
-        { name: "Maida",         brand: "Pillsbury",     image: "/brand-products/pillsbury_maida.jpg" },
-        { name: "Ragi Flour",    brand: "Organic India", image: "/brand-products/organic_india_ragi_flour.jpg" },
-        { name: "Besan",         brand: "Rajdhani",      image: "/brand-products/rajdhani_besan.jpg" },
-        { name: "Rice Flour",    brand: "Double Horse",  image: "/brand-products/double_horse_rice_flour.jpg" },
-        { name: "Corn Flour",    brand: "Weikfield",     image: "/brand-products/weikfield_corn_flour.jpg" }
+        { name: "Wheat Flour",   brand: "Aashirvaad",    image: "/brand-products/aashirvaad_wheat_flour.webp" },
+        { name: "Maida",         brand: "Pillsbury",     image: "/brand-products/pillsbury_maida.webp" },
+        { name: "Ragi Flour",    brand: "Organic India", image: "/brand-products/organic_india_ragi_flour.webp" },
+        { name: "Besan",         brand: "Rajdhani",      image: "/brand-products/rajdhani_besan.webp" },
+        { name: "Rice Flour",    brand: "Double Horse",  image: "/brand-products/double_horse_rice_flour.webp" },
+        { name: "Corn Flour",    brand: "Weikfield",     image: "/brand-products/weikfield_corn_flour.webp" }
       ],
       others: ["Multigrain Flour", "Idiyappam Flour", "Other"]
     },
@@ -454,12 +454,12 @@ export const storeConfig = {
       title: "Pulses & Dals",
       description: "Laser-cleaned toor dal, chana, moong, urad and more for daily cooking.",
       products: [
-        { name: "Toor Dal",    brand: "Tata Sampann",  image: "/brand-products/tata_sampann_toor_dal.jpg" },
-        { name: "Urad Dal",    brand: "Fortune",        image: "/brand-products/fortune_urad_dal.jpg" },
-        { name: "Moong Dal",   brand: "Aashirvaad",     image: "/brand-products/aashirvaad_moong_dal.jpg" },
-        { name: "Chana Dal",   brand: "Patanjali",      image: "/brand-products/patanjali_chana_dal.jpg" },
-        { name: "Masoor Dal",  brand: "24 Mantra",      image: "/brand-products/24_mantra_masoor_dal.jpg" },
-        { name: "Horse Gram",  brand: "Double Horse",   image: "/brand-products/double_horse_horse_gram.jpg" }
+        { name: "Toor Dal",    brand: "Tata Sampann",  image: "/brand-products/tata_sampann_toor_dal.webp" },
+        { name: "Urad Dal",    brand: "Fortune",        image: "/brand-products/fortune_urad_dal.webp" },
+        { name: "Moong Dal",   brand: "Aashirvaad",     image: "/brand-products/aashirvaad_moong_dal.webp" },
+        { name: "Chana Dal",   brand: "Patanjali",      image: "/brand-products/patanjali_chana_dal.webp" },
+        { name: "Masoor Dal",  brand: "24 Mantra",      image: "/brand-products/24_mantra_masoor_dal.webp" },
+        { name: "Horse Gram",  brand: "Double Horse",   image: "/brand-products/double_horse_horse_gram.webp" }
       ],
       others: ["Green Gram", "Black Gram", "Rajma", "Kabuli Chana"]
     },
@@ -469,12 +469,12 @@ export const storeConfig = {
       title: "Spices & Masalas",
       description: "Authentic whole spices, powdered masalas and South Indian blends.",
       products: [
-        { name: "Turmeric Powder",   brand: "Catch",    image: "/brand-products/catch_turmeric_powder.jpg" },
-        { name: "Chilli Powder",     brand: "Everest",  image: "/brand-products/everest_chilli_powder.jpg" },
-        { name: "Coriander Powder",  brand: "MDH",      image: "/brand-products/mdh_coriander_powder.jpg" },
-        { name: "Cumin",             brand: "Ramdev",   image: "/brand-products/ramdev_cumin.jpg" },
-        { name: "Mustard",           brand: "Eastern",  image: "/brand-products/eastern_mustard.jpg" },
-        { name: "Pepper",            brand: "Aachi",    image: "/brand-products/aachi_pepper.jpg" }
+        { name: "Turmeric Powder",   brand: "Catch",    image: "/brand-products/catch_turmeric_powder.webp" },
+        { name: "Chilli Powder",     brand: "Everest",  image: "/brand-products/everest_chilli_powder.webp" },
+        { name: "Coriander Powder",  brand: "MDH",      image: "/brand-products/mdh_coriander_powder.webp" },
+        { name: "Cumin",             brand: "Ramdev",   image: "/brand-products/ramdev_cumin.webp" },
+        { name: "Mustard",           brand: "Eastern",  image: "/brand-products/eastern_mustard.webp" },
+        { name: "Pepper",            brand: "Aachi",    image: "/brand-products/aachi_pepper.webp" }
       ],
       others: ["Garam Masala", "Sambar Powder", "Rasam Powder", "Biryani Masala", "Kitchen King", "Whole Spices", "Cardamom", "Cloves", "Cinnamon", "Bay Leaf"]
     },
@@ -484,12 +484,12 @@ export const storeConfig = {
       title: "Cooking Oils & Ghee",
       description: "Cold-pressed coconut oil, sunflower oil, groundnut oil and pure desi ghee.",
       products: [
-        { name: "Sunflower Oil",   brand: "Fortune",   image: "/brand-products/fortune_sunflower_oil.jpg" },
-        { name: "Groundnut Oil",   brand: "Dhara",     image: "/brand-products/dhara_groundnut_oil.jpg" },
-        { name: "Coconut Oil",     brand: "KLF",       image: "/brand-products/klf_coconut_oil.jpg" },
-        { name: "Mustard Oil",     brand: "Patanjali", image: "/brand-products/patanjali_mustard_oil.jpg" },
-        { name: "Gingelly Oil",    brand: "Idhayam",   image: "/brand-products/idhayam_gingelly_oil.jpg" },
-        { name: "Ghee",            brand: "Amul",      image: "/brand-products/amul_ghee.jpg" }
+        { name: "Sunflower Oil",   brand: "Fortune",   image: "/brand-products/fortune_sunflower_oil.webp" },
+        { name: "Groundnut Oil",   brand: "Dhara",     image: "/brand-products/dhara_groundnut_oil.webp" },
+        { name: "Coconut Oil",     brand: "KLF",       image: "/brand-products/klf_coconut_oil.webp" },
+        { name: "Mustard Oil",     brand: "Patanjali", image: "/brand-products/patanjali_mustard_oil.webp" },
+        { name: "Gingelly Oil",    brand: "Idhayam",   image: "/brand-products/idhayam_gingelly_oil.webp" },
+        { name: "Ghee",            brand: "Amul",      image: "/brand-products/amul_ghee.webp" }
       ],
       others: ["Rice Bran Oil", "Olive Oil", "Butter"]
     },
@@ -499,11 +499,11 @@ export const storeConfig = {
       title: "Sugar & Sweeteners",
       description: "Refined sugar, natural jaggery, honey and rock sugar for all your sweet needs.",
       products: [
-        { name: "Sugar",        brand: "Uttam",      image: "/brand-products/uttam_sugar.jpg" },
-        { name: "Jaggery",      brand: "Organic India", image: "/brand-products/organic_india_jaggery.jpg" },
-        { name: "Brown Sugar",  brand: "Dhampur",    image: "/brand-products/dhampur_brown_sugar.jpg" },
-        { name: "Rock Sugar",   brand: "Patanjali",  image: "/brand-products/patanjali_rock_sugar.jpg" },
-        { name: "Honey",        brand: "Dabur",      image: "/brand-products/dabur_honey.jpg" }
+        { name: "Sugar",        brand: "Uttam",      image: "/brand-products/uttam_sugar.webp" },
+        { name: "Jaggery",      brand: "Organic India", image: "/brand-products/organic_india_jaggery.webp" },
+        { name: "Brown Sugar",  brand: "Dhampur",    image: "/brand-products/dhampur_brown_sugar.webp" },
+        { name: "Rock Sugar",   brand: "Patanjali",  image: "/brand-products/patanjali_rock_sugar.webp" },
+        { name: "Honey",        brand: "Dabur",      image: "/brand-products/dabur_honey.webp" }
       ],
       others: []
     },
@@ -513,9 +513,9 @@ export const storeConfig = {
       title: "Salt",
       description: "Iodized table salt, rock salt and Himalayan pink salt for healthy cooking.",
       products: [
-        { name: "Iodized Salt",  brand: "Tata Salt",   image: "/brand-products/tata_salt_iodized_salt.jpg" },
-        { name: "Rock Salt",     brand: "Patanjali",   image: "/brand-products/patanjali_rock_salt.jpg" },
-        { name: "Pink Salt",     brand: "Keya",        image: "/brand-products/keya_pink_salt.jpg" }
+        { name: "Iodized Salt",  brand: "Tata Salt",   image: "/brand-products/tata_salt_iodized_salt.webp" },
+        { name: "Rock Salt",     brand: "Patanjali",   image: "/brand-products/patanjali_rock_salt.webp" },
+        { name: "Pink Salt",     brand: "Keya",        image: "/brand-products/keya_pink_salt.webp" }
       ],
       others: []
     },
@@ -525,12 +525,12 @@ export const storeConfig = {
       title: "Dry Fruits & Nuts",
       description: "Premium almonds, cashews, raisins, dates and mixed nuts.",
       products: [
-        { name: "Almonds",     brand: "Happilo",    image: "/brand-products/happilo_almonds.jpg" },
-        { name: "Cashews",     brand: "Nutraj",     image: "/brand-products/nutraj_cashews.jpg" },
-        { name: "Pistachios",  brand: "Wonderland", image: "/brand-products/wonderland_pistachios.jpg" },
-        { name: "Raisins",     brand: "Happilo",    image: "/brand-products/happilo_raisins.jpg" },
-        { name: "Dates",       brand: "Lion",       image: "/brand-products/lion_dates.jpg" },
-        { name: "Walnuts",     brand: "Tulsi",      image: "/brand-products/tulsi_walnuts.jpg" }
+        { name: "Almonds",     brand: "Happilo",    image: "/brand-products/happilo_almonds.webp" },
+        { name: "Cashews",     brand: "Nutraj",     image: "/brand-products/nutraj_cashews.webp" },
+        { name: "Pistachios",  brand: "Wonderland", image: "/brand-products/wonderland_pistachios.webp" },
+        { name: "Raisins",     brand: "Happilo",    image: "/brand-products/happilo_raisins.webp" },
+        { name: "Dates",       brand: "Lion",       image: "/brand-products/lion_dates.webp" },
+        { name: "Walnuts",     brand: "Tulsi",      image: "/brand-products/tulsi_walnuts.webp" }
       ],
       others: ["Peanuts", "Mixed Nuts"]
     },
@@ -540,12 +540,12 @@ export const storeConfig = {
       title: "Snacks",
       description: "Crispy chips, namkeen, murukku, khakhra, popcorn and more.",
       products: [
-        { name: "Chips",     brand: "Lays",        image: "/brand-products/lays_chips.jpg" },
-        { name: "Namkeen",   brand: "Haldiram",    image: "/brand-products/haldiram_namkeen.jpg" },
-        { name: "Mixture",   brand: "Bikanervala", image: "/brand-products/bikanervala_mixture.jpg" },
-        { name: "Murukku",   brand: "Anand",       image: "/brand-products/anand_murukku.jpg" },
-        { name: "Khakhra",   brand: "Lijjat",      image: "/brand-products/lijjat_khakhra.jpg" },
-        { name: "Popcorn",   brand: "Act II",      image: "/brand-products/act_ii_popcorn.jpg" }
+        { name: "Chips",     brand: "Lays",        image: "/brand-products/lays_chips.webp" },
+        { name: "Namkeen",   brand: "Haldiram",    image: "/brand-products/haldiram_namkeen.webp" },
+        { name: "Mixture",   brand: "Bikanervala", image: "/brand-products/bikanervala_mixture.webp" },
+        { name: "Murukku",   brand: "Anand",       image: "/brand-products/anand_murukku.webp" },
+        { name: "Khakhra",   brand: "Lijjat",      image: "/brand-products/lijjat_khakhra.webp" },
+        { name: "Popcorn",   brand: "Act II",      image: "/brand-products/act_ii_popcorn.webp" }
       ],
       others: ["Fryums"]
     },
@@ -555,12 +555,12 @@ export const storeConfig = {
       title: "Biscuits & Bakery",
       description: "Biscuits, cookies, bread, buns, rusk, cakes and fresh bakery items.",
       products: [
-        { name: "Biscuits",  brand: "Britannia",  image: "/brand-products/britannia_biscuits.jpg" },
-        { name: "Cookies",   brand: "Sunfeast",   image: "/brand-products/sunfeast_cookies.jpg" },
-        { name: "Bread",     brand: "Harvest Gold",image: "/brand-products/harvest_gold_bread.jpg" },
-        { name: "Buns",      brand: "Modern",     image: "/brand-products/modern_buns.jpg" },
-        { name: "Rusk",      brand: "Parle",      image: "/brand-products/parle_rusk.jpg" },
-        { name: "Cakes",     brand: "Britannia",  image: "/brand-products/britannia_cakes.jpg" }
+        { name: "Biscuits",  brand: "Britannia",  image: "/brand-products/britannia_biscuits.webp" },
+        { name: "Cookies",   brand: "Sunfeast",   image: "/brand-products/sunfeast_cookies.webp" },
+        { name: "Bread",     brand: "Harvest Gold",image: "/brand-products/harvest_gold_bread.webp" },
+        { name: "Buns",      brand: "Modern",     image: "/brand-products/modern_buns.webp" },
+        { name: "Rusk",      brand: "Parle",      image: "/brand-products/parle_rusk.webp" },
+        { name: "Cakes",     brand: "Britannia",  image: "/brand-products/britannia_cakes.webp" }
       ],
       others: ["Muffins"]
     },
@@ -570,11 +570,11 @@ export const storeConfig = {
       title: "Chocolates & Confectionery",
       description: "Chocolates, candies, toffees, chewing gum and lollipops.",
       products: [
-        { name: "Chocolates",    brand: "Cadbury",   image: "/brand-products/cadbury_chocolates.jpg" },
-        { name: "Candy",         brand: "Parle",     image: "/brand-products/parle_candy.jpg" },
-        { name: "Toffees",       brand: "Eclairs",   image: "/brand-products/eclairs_toffees.jpg" },
-        { name: "Chewing Gum",   brand: "Center Fresh", image: "/brand-products/center_fresh_chewing_gum.jpg" },
-        { name: "Lollipops",     brand: "Alpenliebe",image: "/brand-products/alpenliebe_lollipops.jpg" }
+        { name: "Chocolates",    brand: "Cadbury",   image: "/brand-products/cadbury_chocolates.webp" },
+        { name: "Candy",         brand: "Parle",     image: "/brand-products/parle_candy.webp" },
+        { name: "Toffees",       brand: "Eclairs",   image: "/brand-products/eclairs_toffees.webp" },
+        { name: "Chewing Gum",   brand: "Center Fresh", image: "/brand-products/center_fresh_chewing_gum.webp" },
+        { name: "Lollipops",     brand: "Alpenliebe",image: "/brand-products/alpenliebe_lollipops.webp" }
       ],
       others: []
     },
@@ -584,12 +584,12 @@ export const storeConfig = {
       title: "Beverages",
       description: "Tea, coffee, juices, soft drinks, energy drinks and mineral water.",
       products: [
-        { name: "Tea",           brand: "Tata Tea",  image: "/brand-products/tata_tea_tea.jpg" },
-        { name: "Coffee",        brand: "Nescafé",   image: "/brand-products/nescaf__coffee.jpg" },
-        { name: "Green Tea",     brand: "Lipton",    image: "/brand-products/lipton_green_tea.jpg" },
-        { name: "Soft Drinks",   brand: "Coca-Cola", image: "/brand-products/coca_cola_soft_drinks.jpg" },
-        { name: "Fruit Juice",   brand: "Real",      image: "/brand-products/real_fruit_juice.jpg" },
-        { name: "Mineral Water", brand: "Bisleri",   image: "/brand-products/bisleri_mineral_water.jpg" }
+        { name: "Tea",           brand: "Tata Tea",  image: "/brand-products/tata_tea_tea.webp" },
+        { name: "Coffee",        brand: "Nescafé",   image: "/brand-products/nescaf__coffee.webp" },
+        { name: "Green Tea",     brand: "Lipton",    image: "/brand-products/lipton_green_tea.webp" },
+        { name: "Soft Drinks",   brand: "Coca-Cola", image: "/brand-products/coca_cola_soft_drinks.webp" },
+        { name: "Fruit Juice",   brand: "Real",      image: "/brand-products/real_fruit_juice.webp" },
+        { name: "Mineral Water", brand: "Bisleri",   image: "/brand-products/bisleri_mineral_water.webp" }
       ],
       others: ["Energy Drinks"]
     },
@@ -599,12 +599,12 @@ export const storeConfig = {
       title: "Dairy Products",
       description: "Fresh milk, curd, butter, cheese, paneer, cream and ice cream.",
       products: [
-        { name: "Milk",    brand: "Nandini",      image: "/brand-products/nandini_milk.jpg" },
-        { name: "Curd",    brand: "Mother Dairy", image: "/brand-products/mother_dairy_curd.jpg" },
-        { name: "Butter",  brand: "Amul",         image: "/brand-products/amul_butter.jpg" },
-        { name: "Cheese",  brand: "Amul",         image: "/brand-products/amul_cheese.jpg" },
-        { name: "Paneer",  brand: "Milky Mist",   image: "/brand-products/milky_mist_paneer.jpg" },
-        { name: "Cream",   brand: "Amul",         image: "/brand-products/amul_cream.jpg" }
+        { name: "Milk",    brand: "Nandini",      image: "/brand-products/nandini_milk.webp" },
+        { name: "Curd",    brand: "Mother Dairy", image: "/brand-products/mother_dairy_curd.webp" },
+        { name: "Butter",  brand: "Amul",         image: "/brand-products/amul_butter.webp" },
+        { name: "Cheese",  brand: "Amul",         image: "/brand-products/amul_cheese.webp" },
+        { name: "Paneer",  brand: "Milky Mist",   image: "/brand-products/milky_mist_paneer.webp" },
+        { name: "Cream",   brand: "Amul",         image: "/brand-products/amul_cream.webp" }
       ],
       others: ["Ice Cream"]
     },
@@ -614,12 +614,12 @@ export const storeConfig = {
       title: "Instant Foods",
       description: "Instant noodles, pasta, vermicelli, ready mixes, oats and soup mixes.",
       products: [
-        { name: "Instant Noodles", brand: "Maggi",    image: "/brand-products/maggi_instant_noodles.jpg" },
-        { name: "Pasta",           brand: "Borges",   image: "/brand-products/borges_pasta.jpg" },
-        { name: "Vermicelli",      brand: "MTR",      image: "/brand-products/mtr_vermicelli.jpg" },
-        { name: "Ready Mixes",     brand: "MTR",      image: "/brand-products/mtr_ready_mixes.jpg" },
-        { name: "Soup Mix",        brand: "Knorr",    image: "/brand-products/knorr_soup_mix.jpg" },
-        { name: "Oats",            brand: "Quaker",   image: "/brand-products/quaker_oats.jpg" }
+        { name: "Instant Noodles", brand: "Maggi",    image: "/brand-products/maggi_instant_noodles.webp" },
+        { name: "Pasta",           brand: "Borges",   image: "/brand-products/borges_pasta.webp" },
+        { name: "Vermicelli",      brand: "MTR",      image: "/brand-products/mtr_vermicelli.webp" },
+        { name: "Ready Mixes",     brand: "MTR",      image: "/brand-products/mtr_ready_mixes.webp" },
+        { name: "Soup Mix",        brand: "Knorr",    image: "/brand-products/knorr_soup_mix.webp" },
+        { name: "Oats",            brand: "Quaker",   image: "/brand-products/quaker_oats.webp" }
       ],
       others: []
     },
@@ -629,12 +629,12 @@ export const storeConfig = {
       title: "Pickles & Sauces",
       description: "Traditional pickles, ketchup, soy sauce, chilli sauce, vinegar and mayo.",
       products: [
-        { name: "Pickles",         brand: "Priya",    image: "/brand-products/priya_pickles.jpg" },
-        { name: "Tomato Ketchup",  brand: "Kissan",   image: "/brand-products/kissan_tomato_ketchup.jpg" },
-        { name: "Soy Sauce",       brand: "Ching's",  image: "/brand-products/ching_s_soy_sauce.jpg" },
-        { name: "Chilli Sauce",    brand: "Maggi",    image: "/brand-products/maggi_chilli_sauce.jpg" },
-        { name: "Vinegar",         brand: "Heinz",    image: "/brand-products/heinz_vinegar.jpg" },
-        { name: "Mayonnaise",      brand: "Dr. Oetker",image: "/brand-products/dr__oetker_mayonnaise.jpg" }
+        { name: "Pickles",         brand: "Priya",    image: "/brand-products/priya_pickles.webp" },
+        { name: "Tomato Ketchup",  brand: "Kissan",   image: "/brand-products/kissan_tomato_ketchup.webp" },
+        { name: "Soy Sauce",       brand: "Ching's",  image: "/brand-products/ching_s_soy_sauce.webp" },
+        { name: "Chilli Sauce",    brand: "Maggi",    image: "/brand-products/maggi_chilli_sauce.webp" },
+        { name: "Vinegar",         brand: "Heinz",    image: "/brand-products/heinz_vinegar.webp" },
+        { name: "Mayonnaise",      brand: "Dr. Oetker",image: "/brand-products/dr__oetker_mayonnaise.webp" }
       ],
       others: []
     },
@@ -644,12 +644,12 @@ export const storeConfig = {
       title: "Fresh Fruits",
       description: "Fresh banana, apple, mango, grapes, pomegranate and seasonal fruits.",
       products: [
-        { name: "Banana",       brand: "Fresh",   image: "/brand-products/fresh_banana.jpg" },
-        { name: "Apple",        brand: "Fresh",   image: "/brand-products/fresh_apple.jpg" },
-        { name: "Orange",       brand: "Fresh",   image: "/brand-products/fresh_orange.jpg" },
-        { name: "Mango",        brand: "Fresh",   image: "/brand-products/fresh_mango.jpg" },
-        { name: "Grapes",       brand: "Fresh",   image: "/brand-products/fresh_grapes.jpg" },
-        { name: "Pomegranate",  brand: "Fresh",   image: "/brand-products/fresh_pomegranate.jpg" }
+        { name: "Banana",       brand: "Fresh",   image: "/brand-products/fresh_banana.webp" },
+        { name: "Apple",        brand: "Fresh",   image: "/brand-products/fresh_apple.webp" },
+        { name: "Orange",       brand: "Fresh",   image: "/brand-products/fresh_orange.webp" },
+        { name: "Mango",        brand: "Fresh",   image: "/brand-products/fresh_mango.webp" },
+        { name: "Grapes",       brand: "Fresh",   image: "/brand-products/fresh_grapes.webp" },
+        { name: "Pomegranate",  brand: "Fresh",   image: "/brand-products/fresh_pomegranate.webp" }
       ],
       others: ["Papaya", "Watermelon", "Seasonal Fruits"]
     },
@@ -659,12 +659,12 @@ export const storeConfig = {
       title: "Fresh Vegetables",
       description: "Farm-fresh onion, potato, tomato, carrot, leafy greens and seasonal vegetables.",
       products: [
-        { name: "Onion",    brand: "Fresh",  image: "/brand-products/fresh_onion.jpg" },
-        { name: "Potato",   brand: "Fresh",  image: "/brand-products/fresh_potato.jpg" },
-        { name: "Tomato",   brand: "Fresh",  image: "/brand-products/fresh_tomato.jpg" },
-        { name: "Carrot",   brand: "Fresh",  image: "/brand-products/fresh_carrot.jpg" },
-        { name: "Beans",    brand: "Fresh",  image: "/brand-products/fresh_beans.jpg" },
-        { name: "Brinjal",  brand: "Fresh",  image: "/brand-products/fresh_brinjal.jpg" }
+        { name: "Onion",    brand: "Fresh",  image: "/brand-products/fresh_onion.webp" },
+        { name: "Potato",   brand: "Fresh",  image: "/brand-products/fresh_potato.webp" },
+        { name: "Tomato",   brand: "Fresh",  image: "/brand-products/fresh_tomato.webp" },
+        { name: "Carrot",   brand: "Fresh",  image: "/brand-products/fresh_carrot.webp" },
+        { name: "Beans",    brand: "Fresh",  image: "/brand-products/fresh_beans.webp" },
+        { name: "Brinjal",  brand: "Fresh",  image: "/brand-products/fresh_brinjal.webp" }
       ],
       others: ["Cabbage", "Cauliflower", "Cucumber", "Capsicum", "Green Chilli", "Leafy Vegetables", "Seasonal Vegetables"]
     },
@@ -674,12 +674,12 @@ export const storeConfig = {
       title: "Personal Care",
       description: "Soap, shampoo, toothpaste, face wash, hair oil, deodorant and more.",
       products: [
-        { name: "Soap",         brand: "Dove",      image: "/brand-products/dove_soap.jpg" },
-        { name: "Shampoo",      brand: "Head & Shoulders", image: "/brand-products/head___shoulders_shampoo.jpg" },
-        { name: "Toothpaste",   brand: "Colgate",   image: "/brand-products/colgate_toothpaste.jpg" },
-        { name: "Toothbrush",   brand: "Oral-B",    image: "/brand-products/oral_b_toothbrush.jpg" },
-        { name: "Face Wash",    brand: "Himalaya",  image: "/brand-products/himalaya_face_wash.jpg" },
-        { name: "Hair Oil",     brand: "Parachute", image: "/brand-products/parachute_hair_oil.jpg" }
+        { name: "Soap",         brand: "Dove",      image: "/brand-products/dove_soap.webp" },
+        { name: "Shampoo",      brand: "Head & Shoulders", image: "/brand-products/head___shoulders_shampoo.webp" },
+        { name: "Toothpaste",   brand: "Colgate",   image: "/brand-products/colgate_toothpaste.webp" },
+        { name: "Toothbrush",   brand: "Oral-B",    image: "/brand-products/oral_b_toothbrush.webp" },
+        { name: "Face Wash",    brand: "Himalaya",  image: "/brand-products/himalaya_face_wash.webp" },
+        { name: "Hair Oil",     brand: "Parachute", image: "/brand-products/parachute_hair_oil.webp" }
       ],
       others: ["Talcum Powder", "Deodorant", "Sanitary Pads", "Shaving Products"]
     },
@@ -689,12 +689,12 @@ export const storeConfig = {
       title: "Home Care",
       description: "Detergents, dishwash, floor cleaner, toilet cleaner and home essentials.",
       products: [
-        { name: "Detergent Powder",  brand: "Ariel",      image: "/brand-products/ariel_detergent_powder.jpg" },
-        { name: "Detergent Liquid",  brand: "Surf Excel",  image: "/brand-products/surf_excel_detergent_liquid.jpg" },
-        { name: "Dish Wash",         brand: "Vim",         image: "/brand-products/vim_dish_wash.jpg" },
-        { name: "Floor Cleaner",     brand: "Lizol",       image: "/brand-products/lizol_floor_cleaner.jpg" },
-        { name: "Toilet Cleaner",    brand: "Harpic",      image: "/brand-products/harpic_toilet_cleaner.jpg" },
-        { name: "Phenyl",            brand: "Robin",       image: "/brand-products/robin_phenyl.jpg" }
+        { name: "Detergent Powder",  brand: "Ariel",      image: "/brand-products/ariel_detergent_powder.webp" },
+        { name: "Detergent Liquid",  brand: "Surf Excel",  image: "/brand-products/surf_excel_detergent_liquid.webp" },
+        { name: "Dish Wash",         brand: "Vim",         image: "/brand-products/vim_dish_wash.webp" },
+        { name: "Floor Cleaner",     brand: "Lizol",       image: "/brand-products/lizol_floor_cleaner.webp" },
+        { name: "Toilet Cleaner",    brand: "Harpic",      image: "/brand-products/harpic_toilet_cleaner.webp" },
+        { name: "Phenyl",            brand: "Robin",       image: "/brand-products/robin_phenyl.webp" }
       ],
       others: ["Garbage Bags", "Scrub Pads"]
     },
@@ -704,12 +704,12 @@ export const storeConfig = {
       title: "Household Essentials",
       description: "Tissue paper, foil, match box, candles, mosquito repellent and more.",
       products: [
-        { name: "Tissue Paper",        brand: "Scotties",   image: "/brand-products/scotties_tissue_paper.jpg" },
-        { name: "Aluminium Foil",      brand: "Hindalco",   image: "/brand-products/hindalco_aluminium_foil.jpg" },
-        { name: "Cling Wrap",          brand: "Hippo",      image: "/brand-products/hippo_cling_wrap.jpg" },
-        { name: "Match Box",           brand: "WIMCO",      image: "/brand-products/wimco_match_box.jpg" },
-        { name: "Candles",             brand: "Mangaldeep", image: "/brand-products/mangaldeep_candles.jpg" },
-        { name: "Mosquito Repellent",  brand: "Good Knight", image: "/brand-products/good_knight_mosquito_repellent.jpg" }
+        { name: "Tissue Paper",        brand: "Scotties",   image: "/brand-products/scotties_tissue_paper.webp" },
+        { name: "Aluminium Foil",      brand: "Hindalco",   image: "/brand-products/hindalco_aluminium_foil.webp" },
+        { name: "Cling Wrap",          brand: "Hippo",      image: "/brand-products/hippo_cling_wrap.webp" },
+        { name: "Match Box",           brand: "WIMCO",      image: "/brand-products/wimco_match_box.webp" },
+        { name: "Candles",             brand: "Mangaldeep", image: "/brand-products/mangaldeep_candles.webp" },
+        { name: "Mosquito Repellent",  brand: "Good Knight", image: "/brand-products/good_knight_mosquito_repellent.webp" }
       ],
       others: ["Batteries", "Plastic Covers"]
     },
@@ -719,12 +719,12 @@ export const storeConfig = {
       title: "Baby Care",
       description: "Baby soap, shampoo, powder, oil, diapers and wipes for your little ones.",
       products: [
-        { name: "Baby Soap",     brand: "Johnson's",  image: "/brand-products/johnson_s_baby_soap.jpg" },
-        { name: "Baby Shampoo",  brand: "Johnson's",  image: "/brand-products/johnson_s_baby_shampoo.jpg" },
-        { name: "Baby Powder",   brand: "Johnson's",  image: "/brand-products/johnson_s_baby_powder.jpg" },
-        { name: "Baby Oil",      brand: "Johnson's",  image: "/brand-products/johnson_s_baby_oil.jpg" },
-        { name: "Diapers",       brand: "Pampers",    image: "/brand-products/pampers_diapers.jpg" },
-        { name: "Baby Wipes",    brand: "Mee Mee",    image: "/brand-products/mee_mee_baby_wipes.jpg" }
+        { name: "Baby Soap",     brand: "Johnson's",  image: "/brand-products/johnson_s_baby_soap.webp" },
+        { name: "Baby Shampoo",  brand: "Johnson's",  image: "/brand-products/johnson_s_baby_shampoo.webp" },
+        { name: "Baby Powder",   brand: "Johnson's",  image: "/brand-products/johnson_s_baby_powder.webp" },
+        { name: "Baby Oil",      brand: "Johnson's",  image: "/brand-products/johnson_s_baby_oil.webp" },
+        { name: "Diapers",       brand: "Pampers",    image: "/brand-products/pampers_diapers.webp" },
+        { name: "Baby Wipes",    brand: "Mee Mee",    image: "/brand-products/mee_mee_baby_wipes.webp" }
       ],
       others: []
     },
@@ -734,9 +734,9 @@ export const storeConfig = {
       title: "Pet Care",
       description: "Nutritious dog food, cat food and pet treats from trusted brands.",
       products: [
-        { name: "Dog Food",    brand: "Pedigree",   image: "/brand-products/pedigree_dog_food.jpg" },
-        { name: "Cat Food",    brand: "Whiskas",    image: "/brand-products/whiskas_cat_food.jpg" },
-        { name: "Pet Treats",  brand: "Drools",     image: "/brand-products/drools_pet_treats.jpg" }
+        { name: "Dog Food",    brand: "Pedigree",   image: "/brand-products/pedigree_dog_food.webp" },
+        { name: "Cat Food",    brand: "Whiskas",    image: "/brand-products/whiskas_cat_food.webp" },
+        { name: "Pet Treats",  brand: "Drools",     image: "/brand-products/drools_pet_treats.webp" }
       ],
       others: []
     },
@@ -746,11 +746,11 @@ export const storeConfig = {
       title: "Frozen Foods",
       description: "Frozen peas, corn, snacks, paratha and vegetables for quick meals.",
       products: [
-        { name: "Frozen Peas",        brand: "McCain",    image: "/brand-products/mccain_frozen_peas.jpg" },
-        { name: "Frozen Corn",        brand: "McCain",    image: "/brand-products/mccain_frozen_corn.jpg" },
-        { name: "Frozen Snacks",      brand: "McCain",    image: "/brand-products/mccain_frozen_snacks.jpg" },
-        { name: "Frozen Paratha",     brand: "Kawan",     image: "/brand-products/kawan_frozen_paratha.jpg" },
-        { name: "Frozen Vegetables",  brand: "Safal",     image: "/brand-products/safal_frozen_vegetables.jpg" }
+        { name: "Frozen Peas",        brand: "McCain",    image: "/brand-products/mccain_frozen_peas.webp" },
+        { name: "Frozen Corn",        brand: "McCain",    image: "/brand-products/mccain_frozen_corn.webp" },
+        { name: "Frozen Snacks",      brand: "McCain",    image: "/brand-products/mccain_frozen_snacks.webp" },
+        { name: "Frozen Paratha",     brand: "Kawan",     image: "/brand-products/kawan_frozen_paratha.webp" },
+        { name: "Frozen Vegetables",  brand: "Safal",     image: "/brand-products/safal_frozen_vegetables.webp" }
       ],
       others: []
     },
@@ -758,17 +758,17 @@ export const storeConfig = {
 
   // Real gallery images from public/shop-gallery
   gallery: [
-    { src: "/shop-gallery/IMG_20260709_094759.jpg", caption: "Store Entrance View" },
-    { src: "/shop-gallery/IMG_20260709_094817.jpg", caption: "Organized Grocery Shelves" },
-    { src: "/shop-gallery/IMG_20260709_094827.jpg", caption: "Premium Rice and Flour Section" },
-    { src: "/shop-gallery/IMG_20260709_094835.jpg", caption: "Staples and Pulses Section" },
-    { src: "/shop-gallery/IMG_20260709_094849.jpg", caption: "Snack Corner & Dry Foods" },
-    { src: "/shop-gallery/IMG_20260709_094855.jpg", caption: "Fresh Staple Oils Aisle" },
-    { src: "/shop-gallery/IMG_20260709_094902.jpg", caption: "Double-Cleaned Rice Stacks" },
-    { src: "/shop-gallery/IMG_20260709_094909.jpg", caption: "Spices & Masalas Counter" },
-    { src: "/shop-gallery/IMG_20260709_094913.jpg", caption: "Household Utility Corner" },
-    { src: "/shop-gallery/IMG_20260709_094924.jpg", caption: "Dairy Coolers & Freezers" },
-    { src: "/shop-gallery/IMG_20260709_094926.jpg", caption: "Premium Brand Sections" },
-    { src: "/shop-gallery/IMG_20260709_094944.jpg", caption: "Organized Billing Counters" }
+    { src: "/shop-gallery/IMG_20260709_094759.webp", caption: "Store Entrance View" },
+    { src: "/shop-gallery/IMG_20260709_094817.webp", caption: "Organized Grocery Shelves" },
+    { src: "/shop-gallery/IMG_20260709_094827.webp", caption: "Premium Rice and Flour Section" },
+    { src: "/shop-gallery/IMG_20260709_094835.webp", caption: "Staples and Pulses Section" },
+    { src: "/shop-gallery/IMG_20260709_094849.webp", caption: "Snack Corner & Dry Foods" },
+    { src: "/shop-gallery/IMG_20260709_094855.webp", caption: "Fresh Staple Oils Aisle" },
+    { src: "/shop-gallery/IMG_20260709_094902.webp", caption: "Double-Cleaned Rice Stacks" },
+    { src: "/shop-gallery/IMG_20260709_094909.webp", caption: "Spices & Masalas Counter" },
+    { src: "/shop-gallery/IMG_20260709_094913.webp", caption: "Household Utility Corner" },
+    { src: "/shop-gallery/IMG_20260709_094924.webp", caption: "Dairy Coolers & Freezers" },
+    { src: "/shop-gallery/IMG_20260709_094926.webp", caption: "Premium Brand Sections" },
+    { src: "/shop-gallery/IMG_20260709_094944.webp", caption: "Organized Billing Counters" }
   ]
 };
