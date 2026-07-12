@@ -26,7 +26,7 @@ export default function ProductSlider({ category }) {
   };
 
   return (
-    <div className="relative max-w-7xl mx-auto my-6 select-none group">
+    <div className="relative max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto my-6 select-none group">
       <div
         ref={scrollContainerRef}
         className="flex overflow-x-auto snap-x snap-mandatory no-scrollbar gap-4 sm:gap-6 pb-4 scroll-smooth"

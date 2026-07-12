@@ -76,7 +76,7 @@ export default function App() {
           {/* Mobile Image Placement (Above text on mobile) */}
           <div className="lg:hidden h-[280px] rounded-2xl overflow-hidden shadow-soft border border-brand-border">
             <img
-              src="/shop-gallery/IMG_20260709_094759.webp"
+              src="/shop-gallery/premium_hero_store.png"
               alt="Laxmi Super Market storefront"
               className="w-full h-full object-cover object-center"
             />
@@ -151,7 +151,7 @@ export default function App() {
             style={{ boxShadow: '0 20px 60px rgba(0,0,0,0.08)' }}
           >
             <img
-              src="/shop-gallery/IMG_20260709_094759.webp"
+              src="/shop-gallery/premium_hero_store.png"
               alt="Laxmi Super Market aisles"
               className="w-full h-full object-cover"
             />
@@ -274,7 +274,7 @@ export default function App() {
               {/* Image 1 (Larger) */}
               <div className="absolute left-2 top-2 w-[75%] aspect-[4/3] rounded-lg overflow-hidden shadow-soft border border-brand-border z-0 bg-white p-1">
                 <img
-                  src="/shop-gallery/IMG_20260709_094817.webp"
+                  src="/shop-gallery/premium_grocery_shelf.png"
                   alt="Supermarket grocery shelf"
                   className="w-full h-full object-cover rounded"
                 />
@@ -282,8 +282,8 @@ export default function App() {
               {/* Image 2 (Smaller, offset down-right) */}
               <div className="absolute right-2 bottom-2 w-[65%] aspect-[4/3] rounded-lg overflow-hidden shadow-premium border border-brand-border z-10 bg-white p-1">
                 <img
-                  src="/shop-gallery/IMG_20260709_094827.webp"
-                  alt="Supermarket rice stacks"
+                  src="/shop-gallery/premium_store_interior.png"
+                  alt="Supermarket interior"
                   className="w-full h-full object-cover rounded"
                 />
               </div>

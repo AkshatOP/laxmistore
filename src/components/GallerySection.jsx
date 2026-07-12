@@ -26,7 +26,7 @@ export default function GallerySection() {
 
   return (
     <section id="gallery" className="py-24 bg-brand-bg border-t border-brand-border">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+      <div className="max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto px-6 sm:px-8">
         
         {/* Section Header - Timeless Editorial */}
         <div className="text-left max-w-3xl mb-16 space-y-3">
