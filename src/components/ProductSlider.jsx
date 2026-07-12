@@ -3,23 +3,23 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import ProductCard from './ProductCard';
 
 export default function ProductSlider({ category }) {
-  const allCards = [
-    ...category.products.map(p => ({ ...p, isOthers: false })),
-    { isOthers: true } // The final card named "Others"
-  ];
-
   const scrollContainerRef = useRef(null);
+
+  // 6 product cards + 1 "Others" card at the end
+  const allCards = [
+    ...category.products,
+    { isOthers: true },
+  ];
 
   const scroll = (direction) => {
     if (scrollContainerRef.current) {
       const firstChild = scrollContainerRef.current.firstElementChild;
       if (firstChild) {
         const cardWidth = firstChild.getBoundingClientRect().width;
-        // Compute grid gap (gap-4 is 16px on mobile, gap-6 is 24px on desktop)
         const gap = window.innerWidth >= 640 ? 24 : 16;
         scrollContainerRef.current.scrollBy({
           left: direction === 'left' ? -(cardWidth + gap) : (cardWidth + gap),
-          behavior: 'smooth'
+          behavior: 'smooth',
         });
       }
     }
@@ -27,26 +27,24 @@ export default function ProductSlider({ category }) {
 
   return (
     <div className="relative max-w-7xl mx-auto my-6 select-none group">
-      
-      {/* Scrollable Container with scroll-snap and peek effect */}
-      <div 
+      <div
         ref={scrollContainerRef}
         className="flex overflow-x-auto snap-x snap-mandatory no-scrollbar gap-4 sm:gap-6 pb-4 scroll-smooth"
       >
         {allCards.map((card, idx) => (
-          <div 
+          <div
             key={idx}
-            className="w-[82%] sm:w-[45%] lg:w-[calc(33.333%-16px)] snap-start shrink-0"
+            className="w-[72%] sm:w-[42%] lg:w-[calc(25%-18px)] snap-start shrink-0"
           >
             {card.isOthers ? (
-              <ProductCard 
-                isOthers={true} 
-                othersList={category.others} 
+              <ProductCard
+                isOthers={true}
+                othersList={category.others}
                 categoryTitle={category.title}
               />
             ) : (
-              <ProductCard 
-                product={card} 
+              <ProductCard
+                product={card}
                 categoryTitle={category.title}
               />
             )}
@@ -54,7 +52,6 @@ export default function ProductSlider({ category }) {
         ))}
       </div>
 
-      {/* Understated Minimal Circular Navigation Buttons (Hidden by default on Desktop, visible on hover) */}
       {/* Left Arrow */}
       <button
         onClick={() => scroll('left')}
@@ -72,7 +69,6 @@ export default function ProductSlider({ category }) {
       >
         <ChevronRight size={18} className="stroke-[2.5]" />
       </button>
-
     </div>
   );
 }

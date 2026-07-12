@@ -239,9 +239,6 @@ export default function App() {
               >
                 {/* Category Heading & Description */}
                 <div className="text-left border-l-2 border-brand-gold pl-4 max-w-3xl">
-                  <span className="text-[9px] font-bold text-brand-gold uppercase tracking-widest block">
-                    CATEGORY {idx + 1}
-                  </span>
                   <h3 className="text-base sm:text-lg font-extrabold text-brand-text tracking-tight uppercase mt-0.5">
                     {category.title}
                   </h3>
