@@ -500,8 +500,8 @@ export default function App() {
               </div>
 
               {/* Direct Mail */}
-              <p className="text-xs text-slate-400 font-bold uppercase tracking-wider">
-                Email: <a href={`mailto:${storeConfig.contact.email}`} className="hover:text-brand-gold transition-colors">{storeConfig.contact.email}</a>
+              <p className="text-xs text-slate-400 font-bold tracking-wider">
+                <span className="uppercase">Email:</span> <a href={`mailto:${storeConfig.contact.email}`} className="hover:text-brand-gold transition-colors lowercase">{storeConfig.contact.email}</a>
               </p>
             </div>
 

@@ -63,7 +63,7 @@ export default function Layout({ children }) {
           <div className="flex items-center space-x-6">
             <span>Established {storeConfig.establishedYear}</span>
             <span className="w-1.5 h-1.5 rounded-full bg-brand-gold" />
-            <a href={`mailto:${storeConfig.contact.email}`} className="hover:text-brand-gold transition-colors">{storeConfig.contact.email}</a>
+            <a href={`mailto:${storeConfig.contact.email}`} className="hover:text-brand-gold transition-colors lowercase">{storeConfig.contact.email}</a>
           </div>
         </div>
       </div>
