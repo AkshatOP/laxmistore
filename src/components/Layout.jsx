@@ -49,7 +49,7 @@ export default function Layout({ children }) {
       
       {/* 1. TOP BAR */}
       <div className="hidden lg:block bg-brand-green text-[11px] py-2.5 px-8 tracking-wider font-bold text-white/85 uppercase border-b border-brand-green-dark/40">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <div className="max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-6">
             <span className="flex items-center">
               <Clock size={12} className="mr-2 text-brand-gold" />
@@ -74,7 +74,7 @@ export default function Layout({ children }) {
           ? 'bg-white/95 border-b border-brand-border shadow-soft py-3' 
           : 'bg-brand-bg/95 border-b border-transparent py-4.5'
       } backdrop-blur-md`}>
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 flex justify-between items-center">
+        <div className="max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto px-6 sm:px-8 flex justify-between items-center">
           
           {/* Logo / Brand Name */}
           <a href="#home" onClick={(e) => handleLinkClick(e, '#home')} className="flex items-center space-x-3 select-none">
@@ -323,7 +323,7 @@ export default function Layout({ children }) {
 
       {/* Footer */}
       <footer className="bg-brand-green-darkest text-slate-300 border-t border-brand-green-dark py-16">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8">
+        <div className="max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto px-6 sm:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
             
             {/* Column 1: Store Intro */}

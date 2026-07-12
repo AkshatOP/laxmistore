@@ -26,15 +26,20 @@
     font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   }
   
-  /* Zoom/scale layout slightly on desktop screens for better presence and readability */
+  /* Zoom/scale layout on desktop screens for better presence and readability */
   @media (min-width: 1024px) {
-    html {
-      font-size: 108%;
+    body {
+      zoom: 1.15;
     }
   }
   @media (min-width: 1440px) {
-    html {
-      font-size: 112%;
+    body {
+      zoom: 1.22;
+    }
+  }
+  @media (min-width: 1920px) {
+    body {
+      zoom: 1.28;
     }
   }
   

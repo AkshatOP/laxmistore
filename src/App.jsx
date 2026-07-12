@@ -71,7 +71,7 @@ export default function App() {
     <Layout>
       {/* 3. HERO SECTION - Split Screen Retail Layout */}
       <section id="home" className="bg-brand-bg py-16 lg:py-24 border-b border-brand-border relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div className="max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto px-6 sm:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           
           {/* Mobile Image Placement (Above text on mobile) */}
           <div className="lg:hidden h-[280px] rounded-2xl overflow-hidden shadow-soft border border-brand-border">
@@ -81,13 +81,13 @@ export default function App() {
               className="w-full h-full object-cover object-center"
             />
           </div>
-
+ 
           {/* Left Column: Details, badges, CTAs */}
           <motion.div
             initial="hidden"
             animate="visible"
             variants={fadeUpVariant}
-            className="lg:col-span-7 text-left space-y-6"
+            className="lg:col-span-6 text-left space-y-6"
           >
             <span className="text-[11px] font-bold text-brand-gold uppercase tracking-widest block">
               ESTABLISHED 2015 • MYSORE
@@ -100,7 +100,7 @@ export default function App() {
             <p className="text-sm sm:text-base text-brand-text-muted leading-[1.7] max-w-xl">
               A premium neighborhood grocery store in Vijay Nagar, Mysore. Sourcing clean grains, freshly sorted pulses, pure oils, and trusted brands for your family kitchen.
             </p>
-
+ 
             {/* Split Hero CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <a
@@ -120,7 +120,7 @@ export default function App() {
                 <span>WhatsApp List</span>
               </a>
             </div>
-
+ 
             {/* Trust Badges Grid */}
             <div className="grid grid-cols-2 gap-y-3 gap-x-4 pt-6 border-t border-brand-border max-w-md">
               <div className="flex items-center space-x-2 text-brand-text-muted">
@@ -141,13 +141,13 @@ export default function App() {
               </div>
             </div>
           </motion.div>
-
+ 
           {/* Right Column (Desktop Only): Store image */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="hidden lg:block lg:col-span-5 h-[480px] rounded-2xl overflow-hidden shadow-soft border border-brand-border relative"
+            className="hidden lg:block lg:col-span-6 h-[480px] xl:h-[520px] rounded-2xl overflow-hidden shadow-soft border border-brand-border relative"
             style={{ boxShadow: '0 20px 60px rgba(0,0,0,0.08)' }}
           >
             <img
@@ -177,7 +177,7 @@ export default function App() {
 
       {/* 5. OUR EXCLUSIVE PRODUCTS (Own Brand Section) */}
       <section id="exclusive" className="py-24 bg-white overflow-hidden border-b border-brand-border">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8">
+        <div className="max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto px-6 sm:px-8">
           
           {/* Header */}
           <div className="text-left max-w-3xl mb-16 space-y-3">
@@ -212,7 +212,7 @@ export default function App() {
 
       {/* 6. PRODUCT CATALOGUE - Rhythm of Alternating Backgrounds */}
       <section id="products" className="py-24 bg-brand-bg-alt border-b border-brand-border">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8">
+        <div className="max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto px-6 sm:px-8">
           
           {/* Header */}
           <div className="text-left max-w-3xl mb-16 space-y-3">
@@ -260,7 +260,7 @@ export default function App() {
 
       {/* 7. ABOUT SECTION - Editorial offset layout */}
       <section id="about" className="py-24 bg-brand-bg border-b border-brand-border overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8">
+        <div className="max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto px-6 sm:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             
             {/* Left: Offset image grid */}
@@ -336,7 +336,7 @@ export default function App() {
 
       {/* 8. SERVICES SECTION - White bg grid */}
       <section id="facilities" className="py-24 bg-white border-b border-brand-border">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8">
+        <div className="max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto px-6 sm:px-8">
           
           {/* Header */}
           <div className="text-left max-w-3xl mb-16 space-y-3">
@@ -417,7 +417,7 @@ export default function App() {
 
       {/* 10. REVIEWS SECTION */}
       <section className="py-24 bg-white border-t border-brand-border">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8">
+        <div className="max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto px-6 sm:px-8">
           
           {/* Header */}
           <div className="text-left max-w-3xl mb-16 space-y-3">
@@ -467,7 +467,7 @@ export default function App() {
 
       {/* 11. CONTACT SECTION - Dark Forest Green Theme */}
       <section id="contact" className="py-24 bg-brand-green-dark text-white border-t border-brand-border relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12">
+        <div className="max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto px-6 sm:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12">
           
           {/* Left Details Block */}
           <motion.div
