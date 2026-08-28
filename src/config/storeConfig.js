@@ -295,11 +295,11 @@ export const storeConfig = {
     },
     {
       id: "ex-26",
-      name: "Laxmi Premium Kalajeera",
+      name: "Laxmi Premium Shah Jeera",
       tagline: "100% PURE & NATURAL, DOUBLE FILTERED",
       badge: "PREMIUM QUALITY",
       image: "/own-products/kalajeera.webp",
-      description: "Premium quality Kalajeera sourced directly and packed hygienically to retain natural taste and nutrients."
+      description: "Premium quality Shah Jeera sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
       id: "ex-27",
@@ -354,7 +354,7 @@ export const storeConfig = {
       name: "Laxmi Premium Moresalt",
       tagline: "NATURALLY IODIZED, PURE WHITE",
       badge: "DAILY ESSENTIAL",
-      image: "/own-products/moresalt.webp",
+      image: "https://res.cloudinary.com/daimyvr5u/image/upload/v1787927336/58989b95-facf-485d-a010-60d95172db46_bdj9us.jpg",
       description: "Premium quality Moresalt sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -378,7 +378,7 @@ export const storeConfig = {
       name: "Laxmi Premium Salt",
       tagline: "NATURALLY IODIZED, PURE WHITE",
       badge: "PREMIUM QUALITY",
-      image: "/own-products/salt.webp",
+      image: "https://res.cloudinary.com/daimyvr5u/image/upload/v1787927336/58989b95-facf-485d-a010-60d95172db46_bdj9us.jpg",
       description: "Premium quality Salt sourced directly and packed hygienically to retain natural taste and nutrients."
     },
     {
@@ -761,14 +761,18 @@ export const storeConfig = {
     { src: "/shop-gallery/IMG_20260709_094759.webp", caption: "Store Entrance View" },
     { src: "/shop-gallery/IMG_20260709_094817.webp", caption: "Organized Grocery Shelves" },
     { src: "/shop-gallery/IMG_20260709_094827.webp", caption: "Premium Rice and Flour Section" },
+    { src: "https://res.cloudinary.com/daimyvr5u/image/upload/v1787927767/26e63a98-aa2c-4d6c-b815-a5375dc77e48_tvmv2x.jpg", caption: "Wide Range Product Displays" },
     { src: "/shop-gallery/IMG_20260709_094835.webp", caption: "Staples and Pulses Section" },
     { src: "/shop-gallery/IMG_20260709_094849.webp", caption: "Snack Corner & Dry Foods" },
     { src: "/shop-gallery/IMG_20260709_094855.webp", caption: "Fresh Staple Oils Aisle" },
     { src: "/shop-gallery/IMG_20260709_094902.webp", caption: "Double-Cleaned Rice Stacks" },
+    { src: "https://res.cloudinary.com/daimyvr5u/image/upload/v1787927764/55f79b34-38cd-47bb-b676-96e5fcb2f8db_huobi2.jpg", caption: "Super Market Aisle & Inventory" },
     { src: "/shop-gallery/IMG_20260709_094909.webp", caption: "Spices & Masalas Counter" },
     { src: "/shop-gallery/IMG_20260709_094913.webp", caption: "Household Utility Corner" },
     { src: "/shop-gallery/IMG_20260709_094924.webp", caption: "Dairy Coolers & Freezers" },
+    { src: "https://res.cloudinary.com/daimyvr5u/image/upload/v1787927763/e860294a-9fef-443b-807f-f291f5d9b092_wlyct4.jpg", caption: "Freshly Stocked Store Racks" },
     { src: "/shop-gallery/IMG_20260709_094926.webp", caption: "Premium Brand Sections" },
-    { src: "/shop-gallery/IMG_20260709_094944.webp", caption: "Organized Billing Counters" }
+    { src: "/shop-gallery/IMG_20260709_094944.webp", caption: "Organized Billing Counters" },
+    { src: "/shop-gallery/IMG_20260709_094947.webp", caption: "Hygienic Storage & Racks" }
   ]
 };

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, ZoomIn, ChevronLeft, ChevronRight } from 'lucide-react';
+import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { storeConfig } from '../config/storeConfig';
 
 export default function GallerySection() {
@@ -25,11 +25,11 @@ export default function GallerySection() {
   };
 
   return (
-    <section id="gallery" className="py-24 bg-brand-bg border-t border-brand-border">
+    <section id="gallery" className="py-12 sm:py-16 bg-brand-bg border-t border-brand-border">
       <div className="max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto px-6 sm:px-8">
         
         {/* Section Header - Timeless Editorial */}
-        <div className="text-left max-w-3xl mb-16 space-y-3">
+        <div className="text-left max-w-3xl mb-8 sm:mb-10 space-y-2">
           <span className="text-[11px] font-bold text-brand-gold uppercase tracking-widest block">
             INSIDE LAXMI SUPER MARKET
           </span>
@@ -41,33 +41,20 @@ export default function GallerySection() {
           </p>
         </div>
 
-        {/* Masonry Grid Layout: 4 columns desktop, 3 tablet, 2 mobile */}
-        <div className="columns-2 md:columns-3 lg:columns-4 gap-4 sm:gap-6 space-y-4 sm:space-y-6">
+        {/* Uniform Grid Layout: Clean static photos with click-to-enlarge */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
           {storeConfig.gallery.map((img, idx) => (
             <div
               key={idx}
               onClick={() => openLightbox(idx)}
-              className="break-inside-avoid bg-white border border-brand-border rounded-[10px] overflow-hidden shadow-soft group cursor-pointer relative"
+              className="bg-white border border-brand-border rounded-[10px] overflow-hidden shadow-soft cursor-pointer relative aspect-[4/3]"
             >
-              {/* Image box with Waitrose styling */}
-              <div className="overflow-hidden relative">
-                <img
-                  src={img.src}
-                  alt={img.caption}
-                  className="w-full h-auto object-cover group-hover:scale-[1.03] transition-transform duration-500 ease-out"
-                  loading="lazy"
-                />
-                
-                {/* Visual hover overlay: store name + magnifier icon */}
-                <div className="absolute inset-0 bg-brand-green/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-3 text-center">
-                  <span className="text-[9px] font-bold text-white uppercase tracking-widest block mb-2 drop-shadow-sm">
-                    {storeConfig.storeName}
-                  </span>
-                  <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-brand-green shadow-soft border border-brand-border">
-                    <ZoomIn size={14} />
-                  </div>
-                </div>
-              </div>
+              <img
+                src={img.src}
+                alt={img.caption}
+                className="w-full h-full object-cover block"
+                loading="lazy"
+              />
             </div>
           ))}
         </div>
