@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Phone, MapPin, Clock, MessageSquare, Compass, ArrowUp, Star } from 'lucide-react';
+import { Menu, X, Phone, MapPin, Clock, Compass, ArrowUp, Star } from 'lucide-react';
+import WhatsAppIcon from './WhatsAppIcon';
 import { AnimatePresence, motion } from 'framer-motion';
 import { storeConfig } from '../config/storeConfig';
 
@@ -46,7 +47,7 @@ export default function Layout({ children }) {
 
   return (
     <div className="min-h-screen flex flex-col bg-brand-bg text-brand-text font-['Plus_Jakarta_Sans']">
-      
+
       {/* 1. TOP BAR */}
       <div className="hidden lg:block bg-brand-green text-[11px] py-2.5 px-8 tracking-wider font-bold text-white/85 uppercase border-b border-brand-green-dark/40">
         <div className="max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto flex justify-between items-center">
@@ -69,13 +70,12 @@ export default function Layout({ children }) {
       </div>
 
       {/* 2. NAVIGATION HEADER */}
-      <header className={`sticky top-0 z-50 transition-all duration-300 ${
-        isScrolled 
-          ? 'bg-white/95 border-b border-brand-border shadow-soft py-3' 
+      <header className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled
+          ? 'bg-white/95 border-b border-brand-border shadow-soft py-3'
           : 'bg-brand-bg/95 border-b border-transparent py-4.5'
-      } backdrop-blur-md`}>
+        } backdrop-blur-md`}>
         <div className="max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto px-6 sm:px-8 flex justify-between items-center">
-          
+
           {/* Logo / Brand Name */}
           <a href="#home" onClick={(e) => handleLinkClick(e, '#home')} className="flex items-center space-x-3 select-none">
             <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center bg-white border border-brand-border shadow-soft">
@@ -121,7 +121,7 @@ export default function Layout({ children }) {
               rel="noopener noreferrer"
               className="flex items-center space-x-1.5 bg-brand-green hover:bg-brand-green-dark text-white px-4 py-2 rounded text-xs font-bold transition-all uppercase tracking-wider"
             >
-              <MessageSquare size={13} />
+              <WhatsAppIcon size={13} />
               <span>WhatsApp List</span>
             </a>
           </div>
@@ -176,7 +176,7 @@ export default function Layout({ children }) {
                     <X size={18} />
                   </button>
                 </div>
-                
+
                 <nav className="flex flex-col space-y-4">
                   {navLinks.map((link) => (
                     <a
@@ -210,7 +210,7 @@ export default function Layout({ children }) {
                     rel="noopener noreferrer"
                     className="flex items-center justify-center space-x-1 bg-brand-green text-white py-3 rounded text-xs font-bold uppercase tracking-wider"
                   >
-                    <MessageSquare size={13} />
+                    <WhatsAppIcon size={13} />
                     <span>WhatsApp</span>
                   </a>
                 </div>
@@ -226,7 +226,7 @@ export default function Layout({ children }) {
       </main>
 
       {/* 13. FLOATING ELEMENTS */}
-      
+
       {/* Back to top button (bottom-left) */}
       <AnimatePresence>
         {showScrollElements && (
@@ -245,7 +245,7 @@ export default function Layout({ children }) {
 
       {/* Sticky WhatsApp Chat Button (bottom-right) */}
       <div className="fixed bottom-20 lg:bottom-6 right-6 z-40 flex flex-col items-end space-y-3.5">
-        
+
         {/* Sticky ORDER GROCERIES pill button (above WhatsApp) */}
         <AnimatePresence>
           {showScrollElements && (
@@ -256,9 +256,9 @@ export default function Layout({ children }) {
               href={`https://wa.me/${storeConfig.contact.whatsapp.replace(/\+/g, '').replace(/\s/g, '')}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-brand-green hover:bg-brand-green-dark text-white py-2.5 px-4 rounded-full shadow-premium text-[11px] font-bold uppercase tracking-widest flex items-center space-x-2 border border-brand-green-light/25 cursor-pointer"
+              className="bg-[#25D366] hover:bg-[#1ebd59] text-white py-2.5 px-4 rounded-full shadow-premium text-[11px] font-bold uppercase tracking-widest flex items-center space-x-2 border border-emerald-400/25 cursor-pointer"
             >
-              <MessageSquare size={14} />
+              <WhatsAppIcon size={16} />
               <span>Order Groceries</span>
             </motion.a>
           )}
@@ -274,9 +274,9 @@ export default function Layout({ children }) {
         >
           {/* Pulse ring */}
           <span className="absolute inset-0 rounded-full bg-[#25D366] opacity-35 animate-ping -z-10" style={{ animationDuration: '3s' }} />
-          
-          <MessageSquare size={20} className="shrink-0 fill-current" />
-          
+
+          <WhatsAppIcon size={22} />
+
           {/* Tooltip on hover */}
           <span className="absolute right-14 bg-slate-900 text-white text-[10px] uppercase tracking-wider font-bold py-1.5 px-3 rounded shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none">
             Order via WhatsApp
@@ -293,7 +293,7 @@ export default function Layout({ children }) {
           <Phone size={16} className="text-brand-green" />
           <span className="text-[9px] font-bold uppercase tracking-wider">Call Store</span>
         </a>
-        
+
         {/* Divider */}
         <div className="w-px h-6 bg-brand-border" />
 
@@ -303,7 +303,7 @@ export default function Layout({ children }) {
           rel="noopener noreferrer"
           className="flex flex-col items-center justify-center text-center space-y-0.5 text-brand-text-muted hover:text-brand-green w-1/3"
         >
-          <MessageSquare size={16} className="text-emerald-600" />
+          <WhatsAppIcon size={16} className="text-[#25D366]" />
           <span className="text-[9px] font-bold uppercase tracking-wider">WhatsApp</span>
         </a>
 
@@ -325,7 +325,7 @@ export default function Layout({ children }) {
       <footer className="bg-brand-green-darkest text-slate-300 border-t border-brand-green-dark py-16">
         <div className="max-w-7xl lg:max-w-[85rem] xl:max-w-[90rem] mx-auto px-6 sm:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
-            
+
             {/* Column 1: Store Intro */}
             <div className="space-y-4">
               <span className="font-extrabold text-white text-base tracking-tight block uppercase">{storeConfig.storeName}</span>
@@ -388,7 +388,7 @@ export default function Layout({ children }) {
                   </div>
                 </li>
                 <li className="flex items-start space-x-2">
-                  <MessageSquare size={14} className="text-brand-gold shrink-0 mt-0.5" />
+                  <WhatsAppIcon size={14} className="text-brand-gold shrink-0 mt-0.5" />
                   <div className="flex flex-col space-y-1">
                     <a href={`https://wa.me/${storeConfig.contact.whatsapp.replace(/\+/g, '').replace(/\s/g, '')}`} target="_blank" rel="noopener noreferrer" className="hover:text-brand-gold">{storeConfig.contact.whatsapp}</a>
                     <a href={`https://wa.me/${storeConfig.contact.whatsapp2.replace(/\+/g, '').replace(/\s/g, '')}`} target="_blank" rel="noopener noreferrer" className="hover:text-brand-gold">{storeConfig.contact.whatsapp2}</a>

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
   Phone, 
-  MessageSquare, 
   CheckCircle2, 
   ShoppingBag, 
   Star, 
@@ -15,6 +14,7 @@ import {
   Users,
   Compass
 } from 'lucide-react';
+import WhatsAppIcon from './components/WhatsAppIcon';
 import { storeConfig } from './config/storeConfig';
 import Layout from './components/Layout';
 import ProductCard from './components/ProductCard';
@@ -116,7 +116,7 @@ export default function App() {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center space-x-2 bg-white hover:bg-slate-50 text-brand-green border border-brand-green font-bold px-6 py-3 rounded text-xs uppercase tracking-wider h-12 transition-colors cursor-pointer"
               >
-                <MessageSquare size={14} />
+                <WhatsAppIcon size={14} />
                 <span>WhatsApp List</span>
               </a>
             </div>
@@ -520,7 +520,7 @@ export default function App() {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center space-x-2 bg-transparent hover:bg-white/5 border border-white text-white font-bold px-6 py-3 rounded text-xs uppercase tracking-wider h-12 transition-all cursor-pointer w-full sm:w-auto"
               >
-                <MessageSquare size={14} className="text-[#25D366]" />
+                <WhatsAppIcon size={14} className="text-[#25D366]" />
                 <span>WhatsApp Order</span>
               </a>
             </div>
@@ -623,7 +623,7 @@ export default function App() {
                     type="submit"
                     className="w-full bg-brand-gold hover:bg-brand-gold-dark text-white font-bold py-3.5 px-4 rounded-lg flex items-center justify-center space-x-2 text-xs uppercase tracking-wider cursor-pointer"
                   >
-                    <MessageSquare size={14} />
+                    <WhatsAppIcon size={14} />
                     <span>Send Grocery List</span>
                   </button>
                 </form>

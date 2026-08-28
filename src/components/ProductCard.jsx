@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MessageSquare, X, Grid3X3, ChevronRight } from 'lucide-react';
+import { X, Grid3X3, ChevronRight } from 'lucide-react';
+import WhatsAppIcon from './WhatsAppIcon';
 import { storeConfig } from '../config/storeConfig';
 
 export default function ProductCard({ product, categoryTitle, isOthers = false, othersList = [] }) {
@@ -137,7 +138,7 @@ export default function ProductCard({ product, categoryTitle, isOthers = false, 
                         <span className="text-[12px] font-semibold text-slate-700 group-hover/item:text-brand-green line-clamp-2 leading-snug">
                           {item}
                         </span>
-                        <MessageSquare size={11} className="text-slate-300 group-hover/item:text-brand-green shrink-0 ml-1.5 transition-colors" />
+                        <WhatsAppIcon size={11} className="text-slate-300 group-hover/item:text-brand-green shrink-0 ml-1.5 transition-colors" />
                       </button>
                     ))}
                   </div>
@@ -152,7 +153,7 @@ export default function ProductCard({ product, categoryTitle, isOthers = false, 
                     }}
                     className="w-full flex items-center justify-center space-x-2 bg-[#25D366] hover:bg-[#1ebd5b] text-white font-bold py-3 rounded-xl text-sm uppercase tracking-wider transition-colors cursor-pointer shadow-sm"
                   >
-                    <MessageSquare size={15} />
+                    <WhatsAppIcon size={15} />
                     <span>Enquire All on WhatsApp</span>
                   </button>
                 </div>
@@ -209,7 +210,7 @@ export default function ProductCard({ product, categoryTitle, isOthers = false, 
             onClick={() => handleWhatsAppInquiry(product.name)}
             className="flex items-center justify-center space-x-1.5 border border-brand-green text-brand-green font-bold px-4 py-2 rounded text-xs uppercase tracking-wider cursor-pointer transition-all hover:bg-brand-green hover:text-white"
           >
-            <MessageSquare size={13} />
+            <WhatsAppIcon size={13} />
             <span>Ask Stock</span>
           </button>
         </div>
@@ -242,7 +243,7 @@ export default function ProductCard({ product, categoryTitle, isOthers = false, 
           onClick={() => handleWhatsAppInquiry(`${product.name}`)}
           className="w-full flex items-center justify-center space-x-1.5 border border-brand-green hover:bg-brand-green hover:text-white text-brand-green px-3 py-1.5 rounded-lg text-[11px] font-bold transition-all uppercase tracking-wider cursor-pointer"
         >
-          <MessageSquare size={12} className="shrink-0" />
+          <WhatsAppIcon size={12} className="shrink-0" />
           <span>Ask Stock</span>
         </button>
       </div>
